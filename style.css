@@ -1,0 +1,73 @@
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.sidebar{
+    width:260px;
+    background:#0B132B;
+}
+
+.menu-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.menu-item:hover{
+    background:rgba(255,255,255,.1);
+}
+
+.active{
+    background:#7C3AED;
+}
+
+.card-info{
+    background:white;
+    border-radius:18px;
+    padding:24px;
+    display:flex;
+    gap:18px;
+    align-items:center;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:500;
+}
+
+.input{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+}
+
+.input:focus{
+    outline:none;
+    border-color:#7C3AED;
+}
+
+.btn-primary{
+    background:#7C3AED;
+    color:white;
+    padding:12px 22px;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    opacity:.9;
+}
+
+.btn-secondary{
+    background:#e5e7eb;
+    color:#111827;
+    padding:12px 22px;
+    border-radius:12px;
+    font-weight:600;
+}
